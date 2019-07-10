@@ -1,5 +1,10 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -21,17 +26,24 @@
   }
 }
 
+.banner .container{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px;
+}
+
 body {
   background-color: rgb(240,240,240);
   font-family: 'Open Sans', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
 }
 
-h1, h2, h3 {
+h2, h3 {
   color: #575F7D;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
 }
@@ -44,11 +56,6 @@ a {
 
 a:hover {
   color: #F26F7A;
-}
-
-.container {
-  margin: 0 auto;
-  /*width: 600px;*/
 }
 
 .card-white {
@@ -64,6 +71,10 @@ a:hover {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+#img-pepper {
+  height: 200px;
 }
 
 .list-inline > li {
